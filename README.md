@@ -16,3 +16,23 @@ https://localhost:7170/api/auth/signin
 }
 
 ![image](https://github.com/junxian428/Clean_Architecture_JWT_MySQL/assets/58724748/d4a67aec-ffd0-4fad-8a62-3da2e9a8c817)
+
+
+After attached with Bear Token:
+
+GET Request: https://localhost:7170/api/message/manager
+
+Response :
+
+Hello Manager
+
+GET METHOD: https://localhost:7170/api/message/supervisor
+
+Response:
+
+Hello Supervisor
+
+GET method: https://localhost:7170/api/message/admin
+
+403 Forbidden
+
