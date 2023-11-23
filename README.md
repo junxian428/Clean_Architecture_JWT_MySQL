@@ -36,3 +36,24 @@ GET method: https://localhost:7170/api/message/admin
 
 403 Forbidden
 
+Admin Side:
+
+https://localhost:7170/api/auth/signin
+
+
+{
+    "email": "admin@admin.com",
+    "password":"Pass123!"
+}
+
+{
+    "success": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImNiNzNhZGE3LTJkMjMtNDhhNy05NDI5LWEyNGE1NDVjYjEyZSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImFkbWluQGFkbWluLmNvbSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJhZG1pbiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiZXhwIjoxNzAwNzI4MDgyLCJpc3MiOiJUZXN0IiwiYXVkIjoiVGVzdCJ9.6Ix6v5-g1jcABhFL4fIA3BRqa80ODkfhRiHGy6UKHRw",
+    "errors": []
+}
+
+https://localhost:7170/api/message/admin
+
+Response:
+
+Only for Admins' Eyes
